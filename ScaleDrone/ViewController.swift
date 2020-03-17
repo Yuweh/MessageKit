@@ -23,6 +23,8 @@ class ViewController: MessagesViewController {
         messagesCollectionView.messagesLayoutDelegate = self
         messageInputBar.delegate = self
         messagesCollectionView.messagesDisplayDelegate = self
+        
+        member = Member(name: .randomName, color: .random)
     }
 
 
